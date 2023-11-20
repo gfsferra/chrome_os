@@ -1,0 +1,26 @@
+.slide {
+  @include container;
+  height: calc(100vh - 8.6rem);
+  padding-block: 4.4rem;
+
+  &__item {
+    display: flex;
+    justify-content: flex-start;
+    border-top: 2px rgba(0, 0, 0, 0.15) solid;
+    padding-top: 4rem;
+    margin-bottom: 4.4rem;
+  }
+
+  &__title {
+    font-size: 3.6rem;
+    font-weight: 700;
+    width: 40%;
+  }
+
+  &__paragraph {
+    width: 50%;
+    margin-left: 2.4rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+  }
+}

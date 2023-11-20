@@ -1,0 +1,20 @@
+input {
+  &:focus {
+    outline-color: #777777;
+  }
+}
+
+svg {
+  fill: currentColor;
+  pointer-events: none;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  @include container;
+}

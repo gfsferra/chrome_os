@@ -1,0 +1,15 @@
+.u-hidden {
+  display: none;
+}
+
+.u-desktop-hidden {
+  @media ($desktop) {
+    display: none;
+  }
+}
+
+.u-mobile-hidden {
+  @media ($mobile) {
+    display: none;
+  }
+}
