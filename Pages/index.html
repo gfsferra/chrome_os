@@ -30,13 +30,7 @@
               <div class="navbar__dropdown">
                 <ul>
                   <li class="navbar__item navbar__item--nv2">
-                    <a class="navbar__link" href="#demand">Origem</a>
-                  </li>
-                  <li class="navbar__item navbar__item--nv2">
-                    <a class="navbar__link" href="#demand">Origem</a>
-                  </li>
-                  <li class="navbar__item navbar__item--nv2">
-                    <a class="navbar__link" href="#demand">Origem</a>
+                    <a class="navbar__link" href="#origem">Origem</a>
                   </li>
                 </ul>
               </div>
@@ -46,7 +40,7 @@
               <div class="navbar__dropdown">
                 <ul>
                   <li class="navbar__item navbar__item--nv2">
-                    <a class="navbar__link" href="#demand">Demanda</a>
+                    <a class="navbar__link" href="#escalonamento-de-processo">Escalonamento de processo</a>
                   </li>
                 </ul>
               </div>
@@ -56,25 +50,23 @@
               <div class="navbar__dropdown">
                 <ul>
                   <li class="navbar__item navbar__item--nv2">
-                    <a class="navbar__link" href="#demand">Demanda</a>
+                    <a class="navbar__link" href="#gerenciamento-de-memoria">Gerenciamento de memória</a>
+                  </li>
+                  <li class="navbar__item navbar__item--nv2">
+                    <a class="navbar__link" href="#entrada-e-saida">Entrada e Saída</a>
                   </li>
                 </ul>
               </div>
             </li>
             <li class="navbar__item navbar__item--nv1" role="menuitem">
-              <a class="navbar__link" href="#security">
+              <a class="navbar__link" href="#seguranca">
                 Segurança
               </a>
             </li>
             <li class="navbar__item navbar__item--nv1" role="menuitem">
-              Curiosidade
-              <div class="navbar__dropdown">
-                <ul>
-                  <li class="navbar__item navbar__item--nv2">
-                    <a class="navbar__link" href="#demand">Demanda</a>
-                  </li>
-                </ul>
-              </div>
+              <a class="navbar__link" href="#curiosidade">
+                Curiosidade
+              </a>
             </li>
           </ul>
         </nav>
@@ -82,28 +74,242 @@
     </div>
   </header>
 
-  <h1 class="heading__title">ChromeOS</h1>
+  <main>
+    <h1 class="heading__title">ChromeOS</h1>
+    <section class="slide">
+      <ul class="slide__list">
+        <li class="slide__item">
+          <h3 class="slide__title">Histórico</h3>
+          <p class="slide__paragraph">
+            O Chrome OS é um sistema operacional do Google que usa o navegador Chrome como interface e roda aplicativos
+            da
+            web. Ele foi lançado em 2010 e é baseado em ChromeOS.
+          </p>
+        </li>
+        <li class="slide__item">
+          <h3 class="slide__title">Escalonamento de processo</h3>
+          <p class="slide__paragraph">
+            O ChromeOS se baseia no time-sharing, divide a CPU em tempos e os programas “competem” pra receber
+            prioridade.
+          </p>
+        </li>
+        <li class="slide__item">
+          <h3 class="slide__title">Gerenciamento de memória</h3>
+          <p class="slide__paragraph">
+            O ChormeOS utiliza a paginação para fazer o gerenciamento de memória.
+          </p>
+        </li>
+        <div class="slide__collapsed">
+          <li class="slide__item">
+            <h3 class="slide__title">Dispositivos de entrada e saída</h3>
+            <p class="slide__paragraph">
+              O ChromeOS segue os mesmos princípios que outros Sistemas Operacionais, entretanto o seu diferencial é o
+              foco
+              na simplicidade e segurança.
+            </p>
+          </li>
+          <li class="slide__item">
+            <h3 class="slide__title">Segurança</h3>
+            <p class="slide__paragraph">
+              No ChromeOS, cada software é separado no sandbox do seu Chromebook. Mesmo que um deles seja infectado, o
+              outros ficam protegidos.
+            </p>
+          </li>
+        </div>
+        <div class="slide__more" onclick="showMore(this)">
+          <span>Saiba mais</span>
+          <svg fill="none" width="16" height="11" viewBox="0 0 16 11" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.12 10.547L8 4.44l-6.12 6.107L0 8.667l8-8 8 8-1.88 1.88z" fill="#757575"></path>
+          </svg>
+        </div>
+      </ul>
+    </section>
 
-  <section class="slide" id="">
-    <ul class="slide__list">
-      <li class="slide__item">
-        <h3 class="slide__title">O botão Encontrar</h3>
-        <p class="slide__paragraph">
-          Os Chromebooks têm o botão Encontrar. Com ele, você encontra rápido tudo o que precisa. Por exemplo, arquivos.
-          E apps. Além de respostas on-line. Pressione o botão para encontrar tudo o que precisa em um só lugar.
-        </p>
-      </li>
-      <li class="slide__item">Teste</li>
-      <li class="slide__item">Teste</li>
-      <li class="slide__item">Teste</li>
-      <li class="slide__item">Teste</li>
-    </ul>
-  </section>
+    <article class="slide" id="origem">
+      <h2 class="slide__subtitle">
+        Origem ChromeOS
+      </h2>
+      <p class="slide__text">
+        O Chrome OS é um sistema operacional do Google que usa o navegador Chrome como interface e roda aplicativos da
+        web. Ele foi lançado em 2010 e é baseado no ChromeOS. Ele é projetado para ser simples, rápido, seguro e
+        conectado
+        com os serviços da Google. Ele é atualizado automaticamente e só funciona em máquinas específicas chamadas de
+        Chromebooks, que são fabricadas por diversas empresas. Ele também suporta alguns aplicativos do Android e do
+        Chrome. Ele é diferente do Chromium OS, que é um projeto de código aberto que permite modificações. Ele recebeu
+        críticas iniciais por ser limitado, mas depois foi avaliado pelo seu desempenho no hardware.
+      </p>
+    </article>
+
+    <article class="slide" id="escalonamento-de-processo">
+      <h2 class="slide__subtitle">
+        Escalonamento de processo
+      </h2>
+      <p class="slide__text">
+        O ChromeOS se baseia no time-sharing, divide a CPU em tempos e os programas “competem” pra receber
+        prioridade.<br /><br />
+
+        O escalonamento do ChromeOS é de prioridade, o próprio kernel vai reajustando as prioridades e as fatias de
+        tempo conforme os programas forem executando. Um programa cujo não teve uma fatia de tempo por um longo
+        intervalo
+        de tempo terá sua prioridade aumentada, enquanto o programa mais recente terá sua prioridade
+        diminuida.<br /><br />
+
+        Os processos do ChromeOS são preemptivos, isso significa que o SO analisa as prioridades dos programas conforme
+        eles vão sendo executados. Caso a próxima fatia de tempo tenha um programa com uma prioridade maior do que o
+        programa que está sendo executado, o SO interrompe a execução e começa a executar o com maior prioridade.
+      </p>
+    </article>
+
+    <article class="slide" id="gerenciamento-de-memoria">
+      <h2 class="slide__subtitle">
+        Gerenciamento de memória
+      </h2>
+      <p class="slide__text">
+        O ChromeOS utiliza a paginação para fazer o gerenciamento de memória<br /><br />
+
+        Na paginação utiliza se a memória virtual, cujo é uma memória secundária que armazena programas que serão
+        executados porém ficam na memória virtual por falta de espaço<br /><br />
+
+        Os programas são divididos em páginas, essas páginas ficam na memória virtual (chamadas de páginas virtuais) e
+        elas são mapeadas na memória principal também por páginas.
+      </p>
+    </article>
+
+    <article class="slide" id="entrada-e-saida">
+      <h2 class="slide__subtitle">
+        Gerenciamento de Entrada e Saída
+      </h2>
+      <p class="slide__text">
+        O Chrome OS segue os mesmos princípios que outros Sistemas Operacionais, entretanto o seu diferencial é o foco
+        na
+        simplicidade e segurança.<br /><br />
+
+        Ele suporta uma variedade de dispositivos de entrada, por exemplo: o teclado, o mouse, os touchpads e as
+        touchscreen(normalmente de tablets e chromebooks), também tem suporte para dispositivos bluetooth, sejam eles de
+        entrada ou saída.<br />
+        Enquanto os dispositivos de saída são, por exemplo: a Tela, as Caixas de Som e as Impressoras.<br /><br />
+
+        Ambos dispositivos são gerenciados pelos devidos drivers e interfaces do sistema, como o Chrome OS foi feito
+        baseado no ChromeOS, seus drivers fazem parte do Kernel.<br /><br />
+
+        O seu agendamento de E/S é feito através do CFS(Agendador Completamente Justo / Completely Fair Scheduler),
+        passando por um processo de prioridades,
+        possui multitarefas para rapidamente executar diferentes processos dando para cada um, um tempo justo da CPU.
+      </p>
+    </article>
+
+    <article class="slide" id="seguranca">
+      <h2 class="slide__subtitle">
+        Segurança
+      </h2>
+
+      <div class="slide__image">
+        <img src="https://www.google.com/chromebook/assets-2019/static/images/chrome-os/Security_MeetChromeOS@2x.png"
+          alt="Segurança com o ChromeOS" class="slide__image">
+        <div>
+          <h3>Segurança integrada</h3>
+          <p>
+            O sistema ChromeOS possue funções que já vêm com o dispositivo para garantir a segurança.
+          </p>
+        </div>
+      </div>
+
+      <ul class="slide__list">
+        <li class="slide__item">
+          <h3 class="slide__title">Sandbox</h3>
+          <p class="slide__paragraph">
+            No ChromeOS, cada software é separado no sandbox do sistema. Mesmo que um deles seja infectado, o
+            outros ficam protegidos.
+          </p>
+        </li>
+        <li class="slide__item">
+          <h3 class="slide__title">Chip de segurança</h3>
+          <p class="slide__paragraph">
+            Todo Chromebook possui um chip de segurança integrado para criptografar os dados mais
+            sensíveis do usuário e máquina e para proteger contra o acesso não autorizado.
+          </p>
+        </li>
+        <li class="slide__item">
+          <h3 class="slide__title">Powerwash</h3>
+          <p class="slide__paragraph">
+            Mesmo sendo muito difícil algo dar errado, existe a solução com um clique. Com o recurso Powerwash
+            no Chromebook, o dispositivo é resetado para as configurações originais com facilidade e ainda se protege
+            contra malware.
+          </p>
+        </li>
+      </ul>
+    </article>
+
+    <article class="slide" id="curiosidade">
+      <h2 class="slide__subtitle">
+        Curiosidade
+      </h2>
+      <img src="https://www.google.com/chromebook/assets-2019/static/images/intl/pt_BR/home/light/hero-background.jpg"
+        alt="Chromebooks" class="slide__image">
+
+      <h3 class="slide__subtitle-span">O que são os Chromebooks?</h3>
+      <p class="slide__text">
+        Chromebooks são computadores portáteis feitos sob medida para rodar o Chrome OS. Eles não rodam Windows, não tem
+        HD e nem “aplicativos” no sentido tradicional da
+        palavra: seus programas são sites na internet (como GMail, Picnik, Google Docs e muitos outros) e os arquivos
+        ficam armazenados “na nuvem”, em serviços como o Dropbox, o próprio Google Docs ou similares.<br /><br />
+
+        Se por fora um Chromebook lembra um notebook, se analisarmos o software e hardware é possível notar várias
+        diferenças. A Google trabalhou em conjunto com os fabricantes para realizar uma série de mudanças e otimizações
+        nas máquinas, que incluem teclados sob medida para o acesso à internet, longa autonomia de bateria e tempo de
+        boot
+        bastante reduzido.
+      </p>
+    </article>
+  </main>
   <footer class="footer">
     <div class="footer__container">
       <div class="footer__wrapper">
-        
+        <div class="footer__block">
+          <h3 class="footer__subtitle" onclick="accordion(this)">Participantes</h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="https://wa.me/+5514996357444" class="footer__link" target="_blank">Gabriel Sferra
+                (618608)</a>
+            </li>
+            <li class="footer__item">
+              <a href="https://wa.me/+5514991111919" class="footer__link" target="_blank">Pedro Escobar
+                (616591)</a>
+            </li>
+            <li class="footer__item">
+              <a href="https://wa.me/+5514996015765" class="footer__link" target="_blank">Paulo Renato Paschoal
+                (614300)</a>
+            </li>
+            <li class="footer__item">
+              <a href="https://wa.me/+5514936180681" class="footer__link" target="_blank">Rodrigo Ide
+                (617474)</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__block">
+          <h3 class="footer__subtitle" onclick="accordion(this)">Bibliografia</h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="https://www.google.com/intl/pt_br/chromebook/chrome-os" class="footer__link" target="_blank">Site
+                Oficial ChomeOS</a>
+            </li>
+            <li class="footer__item">
+              <a href="https://itforum.com.br/noticias/tudo-o-que-voce-precisa-saber-sobre-os-chromebooks-e-o-chrome-os/"
+                class="footer__link" target="_blank">ITforum</a>
+            </li>
+            <li class="footer__item">
+              <a href="https://www.tecmundo.com.br/software/212236-conheca-tudo-chrome-o-sistema-operacional-google.htm"
+                class="footer__link" target="_blank">TechMundo</a>
+            </li>
+            <li class="footer__item">
+              <a href="https://pt.wikipedia.org/wiki/ChromeOS" class="footer__link" target="_blank">Wikipédia</a>
+            </li>
+          </ul>
+        </div>
       </div>
+      <small class="footer__copyright">
+        &copy; 2023 Gabriel Faria Sferra. Todos os direitos reservados.
+      </small>
     </div>
   </footer>
 </body>

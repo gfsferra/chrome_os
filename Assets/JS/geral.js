@@ -41,3 +41,30 @@ window.addEventListener(
     50
   )
 )
+
+
+function showMore(button) {
+  var element = button.previousElementSibling
+  button.classList.toggle("active")
+  element.classList.toggle("active")
+
+  if (button.classList.contains("active")) {
+    button.querySelector("span").innerHTML = "Ver menos"
+  } else {
+    button.querySelector("span").innerHTML = "Saiba mais"
+  }
+}
+
+/**
+ * Create the accordion effect on button and next element.
+ * @param {string} button - The button that th effect will be applied
+*/
+function accordion(button) {
+  button.classList.toggle("active")
+  var panel = button.nextElementSibling;
+  if (panel.style.maxHeight) {
+    panel.style.maxHeight = null;
+  } else {
+    panel.style.maxHeight = panel.scrollHeight / 10 + "rem";
+  }
+}
