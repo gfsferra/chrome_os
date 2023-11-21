@@ -56,8 +56,10 @@
 
   &__image {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 1.2rem;
+    margin-inline: auto;
     margin-bottom: 2.2rem;
 
     img {
