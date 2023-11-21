@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Trabalho desenvolvido pelos alunos: Gabriel Sferra, Paulo Renato, Rodrigo e Pedro Escobar">
+  <meta name="description"
+    content="Trabalho desenvolvido pelos alunos: Gabriel Sferra, Paulo Renato, Rodrigo e Pedro Escobar">
   <title>ChromeOS</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +21,8 @@
   <header class="header">
     <div class="header__container">
       <div class="header__wrapper">
-        <a href="/" class="header__logo">
-          <img src="../Assets/Imgs/logo.png" alt="Chrome OS icon">
+        <a href="#" class="header__logo">
+          <img src="../Assets/Imgs/logo.png" width="30" height="30" alt="Chrome OS icon">
           <span>chromeOS</span>
         </a>
         <nav class="navbar">
@@ -77,6 +78,7 @@
 
   <main>
     <h1 class="heading__title">ChromeOS</h1>
+    <h2 class="heading__subtitle">O Sistema operacional do Google</h2>
     <section class="slide">
       <ul class="slide__list">
         <li class="slide__item">
@@ -100,30 +102,30 @@
             O ChormeOS utiliza a paginação para fazer o gerenciamento de memória.
           </p>
         </li>
-        <div class="slide__collapsed">
-          <li class="slide__item">
+        <li class="slide__collapsed">
+          <div class="slide__item">
             <h3 class="slide__title">Dispositivos de entrada e saída</h3>
             <p class="slide__paragraph">
               O ChromeOS segue os mesmos princípios que outros Sistemas Operacionais, entretanto o seu diferencial é o
               foco
               na simplicidade e segurança.
             </p>
-          </li>
-          <li class="slide__item">
+          </div>
+          <div class="slide__item">
             <h3 class="slide__title">Segurança</h3>
             <p class="slide__paragraph">
               No ChromeOS, cada software é separado no sandbox do seu Chromebook. Mesmo que um deles seja infectado, o
               outros ficam protegidos.
             </p>
-          </li>
-        </div>
-        <div class="slide__more" onclick="showMore(this)">
+          </div>
+        </li>
+        <li class="slide__more" onclick="showMore(this)">
           <span>Saiba mais</span>
           <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1.88 0.453008L8 6.56001L14.12 0.453008L16 2.33301L8 10.333L0 2.33301L1.88 0.453008Z"
               fill="#757575" />
           </svg>
-        </div>
+        </li>
       </ul>
     </section>
 
@@ -180,9 +182,7 @@
     <article class="slide" id="entrada-e-saida">
       <h2 class="slide__subtitle">Gerenciamento de Entrada e Saída</h2>
       <div class="slide__image">
-        <img
-          src="https://static.lenovo.com/ww/img/subseries/products/lenovo-laptops-student-chromebooks-100e-chromebook-gen3-11inch-amd-ports.png"
-          alt="Chromebooks">
+        <img width="520" height="215" src="../Assets/Imgs/entrada-e-saida.webp" alt="Chromebooks">
         <div>
           <h3>Todas as entradas que voce precisar!</h3>
           <p>Menos entrada de cabo ethernet</p>
@@ -211,10 +211,9 @@
       <h2 class="slide__subtitle">
         Segurança
       </h2>
-
       <div class="slide__image">
-        <img src="https://www.google.com/chromebook/assets-2019/static/images/chrome-os/Security_MeetChromeOS@2x.png"
-          alt="Segurança com o ChromeOS" class="slide__image">
+        <img width="520" height="293" src="../Assets/Imgs/seguranca.png" alt="Segurança com o ChromeOS"
+          class="slide__image">
         <div>
           <h3>Segurança integrada</h3>
           <p>
@@ -222,7 +221,6 @@
           </p>
         </div>
       </div>
-
       <ul class="slide__list">
         <li class="slide__item">
           <h3 class="slide__title">Sandbox</h3>
@@ -253,9 +251,7 @@
       <h2 class="slide__subtitle">
         Curiosidade
       </h2>
-      <img src="https://www.google.com/chromebook/assets-2019/static/images/intl/pt_BR/home/light/hero-background.jpg"
-        alt="Chromebooks" class="slide__image">
-
+      <img width="1300" height="464" src="../Assets/Imgs/curiosidade.jpg" alt="Chromebooks" class="slide__image">
       <h3 class="slide__subtitle-span">O que são os Chromebooks?</h3>
       <p class="slide__text">
         Chromebooks são computadores portáteis feitos sob medida para rodar o Chrome OS. Eles não rodam Windows, não tem
